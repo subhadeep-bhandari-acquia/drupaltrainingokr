@@ -1,0 +1,7 @@
+plugin_discovery.plugins:
+  path: '/acquia-plugins'
+  defaults:
+    _controller: '\Drupal\custom_plugin_discovery\Controller\PluginDiscovery::discover'
+    _title: 'Acquia Plugin Discovery'
+  requirements:
+    _permission: 'access content'

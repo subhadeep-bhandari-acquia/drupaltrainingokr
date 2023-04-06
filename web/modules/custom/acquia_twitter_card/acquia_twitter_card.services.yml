@@ -1,0 +1,3 @@
+services:
+  acquia_twitter_card.get_metatags:
+    class: Drupal\acquia_twitter_card\Service\GetMetatags

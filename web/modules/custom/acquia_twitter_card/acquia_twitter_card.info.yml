@@ -1,0 +1,5 @@
+name: 'Acquia Twitter Card'
+type: module
+description: 'Custom Twitter Card.'
+package: Custom
+core_version_requirement: ^9

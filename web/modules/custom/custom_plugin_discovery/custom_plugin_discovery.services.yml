@@ -1,0 +1,4 @@
+services:
+  plugin.manager.custom_plugin_discovery.acquia_yaml:
+    class: Drupal\custom_plugin_discovery\AcquiaYamlManager
+    arguments: ['@module_handler']

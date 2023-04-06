@@ -1,0 +1,20 @@
+{
+    "name": "subhadeep/console_application",
+    "autoload": {
+        "psr-4": {
+            "Subhadeep\\ConsoleApplication\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Subhadeep Bhandari",
+            "email": "subhadeep.bhandari@acquia.com"
+        }
+    ],
+    "require": {
+        "symfony/console": "^6.2",
+        "symfony/dependency-injection": "^6.2",
+        "symfony/yaml": "^6.2",
+        "symfony/config": "^6.2"
+    }
+}

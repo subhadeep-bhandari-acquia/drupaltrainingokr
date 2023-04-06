@@ -1,0 +1,10 @@
+services:
+  command_factory:
+    class: Subhadeep\ConsoleApplication\CommandFactory
+
+  my_command:
+    class: Subhadeep\ConsoleApplication\MyFirstCommand
+    tags:
+      - { name: console_commands }
+    factory: [ '@command_factory', 'getCommand' ]
+    arguments: [ static ]

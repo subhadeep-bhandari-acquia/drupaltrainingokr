@@ -1,0 +1,16 @@
+<?php
+
+/**
+ * Implements hook_theme().
+ */
+function acquia_twitter_card_theme() {
+  return [
+    'acquia_twitter_card' => [
+      'template' => 'acquia-twitter-card',
+      'variables' => [
+        'twitter_metadata' => NULL,
+      ],
+    ],
+  ];
+}
+

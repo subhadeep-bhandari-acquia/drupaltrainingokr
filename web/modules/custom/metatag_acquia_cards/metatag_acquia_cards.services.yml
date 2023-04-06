@@ -1,0 +1,10 @@
+services:
+  cache.backend.files:
+    class: Drupal\metatag_acquia_cards\Cache\FilesBackendFactory
+    arguments: ['@file_system']
+  cache.acquia_cards_metatag_storage:
+    class: Drupal\Core\Cache\CacheBackendInterface
+    tags:
+      - { name: cache.bin, default_backend: cache.backend.files }
+    factory: [ '@cache.backend.files', 'get' ]
+    arguments: [acquia_cards_metatag_storage]

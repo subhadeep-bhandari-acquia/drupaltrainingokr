@@ -1,0 +1,11 @@
+plugin_3:
+  id: "My Plugin ID 3"
+  title: "My Title 3"
+  js:
+    - my_library3
+
+plugin_4:
+  id: "My Plugin ID 4"
+  title: "My Title 4"
+  js:
+    - my_library4

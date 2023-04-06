@@ -1,0 +1,5 @@
+name: 'Acquia Plugin Discovery'
+type: module
+description: 'Lists all Acquia plugins.'
+package: Custom
+core_version_requirement: ^9
